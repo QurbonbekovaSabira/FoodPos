@@ -502,8 +502,8 @@ body {
 }
 
 .mainContent_card {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   -moz-column-gap: 24px;
        column-gap: 24px;
   row-gap: 55px;
@@ -514,7 +514,7 @@ body {
   padding: 24px;
   padding-top: 114px;
   position: relative;
-  width: 292px;
+  width: 282px;
   border-radius: 8px;
 }
 

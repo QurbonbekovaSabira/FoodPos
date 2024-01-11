@@ -126,8 +126,9 @@ const rendMenu = (id, productMenu) => {
   const main__container = document.querySelector(".main__container");
   if (id) {
     main__container.style.gridTemplateColumns = "104px 3fr 1fr";
-  }
-  let find = main_productMenu.find((item) => item.id == productMenu.id);
+    let find = main_productMenu.find((item) => item.id == productMenu.id);
+  
+  
   if (!main_productMenu.includes(find)) {
     main_productMenu.push(productMenu);
   }
@@ -138,6 +139,7 @@ const rendMenu = (id, productMenu) => {
       }
     }
   }
+}
   menuProduct.innerHTML = "";
   menuProduct.innerHTML += main_productMenu
     ?.map(
@@ -156,7 +158,7 @@ const rendMenu = (id, productMenu) => {
                  <p class="menuCount">${item.count}</p>
                  <button class="menuBtnCount" id="${item.id}" data-dec="${item.id}">-</button>
               </div>
-              <p class="menuPrice">${item.newPrice}</p>
+              <p class="menuPrice">${item.price * item.count}</p>
          </div>
  </div>
  <form class="menuForm">
@@ -168,7 +170,7 @@ const rendMenu = (id, productMenu) => {
     .join("");
    let subTotal=0;
    for(let i of main_productMenu ){
-    subTotal+=i.newPrice
+    subTotal+=i.price*i.count;
    }
   menuSubTotal.innerHTML = 
     `
@@ -193,12 +195,10 @@ menuProduct.addEventListener("click", (e) => {
   let product = productActive.product.find((item) => item.id == id);
   if (increment) {
     product.count += 1;
-    product.newPrice = product.newPrice + product.price;
     rendMenu(id, product);
   }
   if (decrement && product.count > 0) {
     product.count -= 1;
-    product.newPrice = product.newPrice - product.price;
     rendMenu(id, product);
   }
   if (deleteBtn) {
