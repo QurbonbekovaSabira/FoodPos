@@ -21,22 +21,24 @@ const RenderCard = async (data) => {
   try {
     let product = await data;
     productActive = await data;
+   if(productActive){
     mainContent_card.innerHTML = product?.product
-      ?.map(
-        (item) => `
-   <li class="mainContent_card_item" id=${item.id}>
-   <div class="mainContent_card_item_img" id="${item.id}">
-   <img src="${item.url}" alt="">
-   </div>
-   <div class="mainContent_card_item_textBox" id="${item.id}">
-   <p class="mainContent_card_item_title">${item.title}</p>
-   <p class="mainContent_card_item_price">${item.price}</p>
-   <p class="mainContent_card_item_text">${item.text}</p>
-   </div>
-   </li>
-   `
-      )
-      .join("");
+    ?.map(
+      (item) => `
+ <li class="mainContent_card_item" id=${item.id}>
+ <div class="mainContent_card_item_img" id="${item.id}">
+ <img src="${item.url}" alt="">
+ </div>
+ <div class="mainContent_card_item_textBox" id="${item.id}">
+ <p class="mainContent_card_item_title">${item.title}</p>
+ <p class="mainContent_card_item_price">${item.price}</p>
+ <p class="mainContent_card_item_text">${item.text}</p>
+ </div>
+ </li>
+ `
+    )
+    .join("");
+   }
   } catch (error) {}
 };
 

@@ -87,6 +87,9 @@
   border-radius: 8px;
   border: 1px solid #393c49;
   background: #2d303e;
+  &:hover{
+    box-shadow: 0 1px 7px 0px $white;
+  }
 }
 .menuBtnCount {
   padding: 10px;
@@ -97,6 +100,9 @@
   border-radius: 8px;
   border: 1px solid #4c5064;
   background: #313441;
+  &:hover{
+    box-shadow: 0 1px 7px 0px $white;
+  }
 }
 .menuPrice {
   color:  #fff;
@@ -153,4 +159,10 @@
   box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.3);
   width: 100%;
   border: none;
+  &:hover{
+    box-shadow: 0 1px 7px 2px #ea7c69;
+  }
+}
+.menu_cardBtn:hover{
+  box-shadow: 0 1px 7px 2px #ea7c69;
 }
