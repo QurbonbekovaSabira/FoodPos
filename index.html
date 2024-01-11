@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container main__container">
+        <div class="sitebar">
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/logo.svg" alt="logo"></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/home.svg" alt="Home icon"></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/parse.svg" alt=""></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/dashboard.svg" alt=""></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/message.svg" alt=""></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/notification.svg" alt=""></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/setting.svg" alt=""></a>
+            <a class="sitebar__links" href="#" class="sitebar__img"><img src="./img/logout.svg" alt=""></a>
+        </div>
+        <div class="mainContent">
+            <div class="mainContent__titleBox">
+                <div>
+                    <h1 class="mainContent__title">Jaegar Resto</h1>
+                    <p class="mainContent__day"></p>
+                </div>
+                <form class="mainContent__form">
+                    <input class="mainContent__input" type="text" placeholder="Search for food, coffe, etc.."
+                        aria-label="Search for food, coffe, etc..">
+                    <div class="mainContent__descBox"></div>
+                </form>
+            </div>
+            <div class="mainContent__linkBox"></div>
+            <div class="mainContent__sub_titleBox">
+                <h2 class="mainContent__sub_title">Choose Dishes</h2>
+                <select class="mainContent__select" name="Dine In" id="Dine In">
+                    <option value="Dine In">Dine In</option>
+                </select>
+            </div>
+            <ul class="mainContent_card"></ul>
+        </div>
+     
+        <div class="modalBox">
+            <div>
+                <div class="menu">
+                    <h3 class="menu_number">Orders #34562</h3>
+                    <div class="menuBtn_box">
+                        <button class="menu_btn_first">Dine In</button>
+                        <button class="menu_btn_second">To Go</button>
+                        <button class="menu_btn_second">Delivery</button>
+                    </div>
+                    <div class="menu_descBox">
+                        <p class="menu_descBox_text">Item</p>
+                        <div class="menu_descBox_texts">
+                            <p class="menu_descBox_text">Qty</p>
+                            <p class="menu_descBox_text">Price</p>
+                        </div>
+
+                    </div>
+                    <span class="menuSpan"></span>
+                </div>
+                <div class="menuProduct"></div>
+                <span class="menuSpan"></span>
+                <div class="menuSubTotal"></div>
+              <button class="menuMain_btn">Continue to Payment</button>
+            </div>
+
+            <div class="payment"></div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

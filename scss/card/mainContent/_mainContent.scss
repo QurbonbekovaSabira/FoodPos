@@ -1,0 +1,199 @@
+.mainContent {
+  padding-top: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.mainContent__title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 4px;
+}
+.mainContent__day {
+  color: var(--Text-Lighter, #e0e6e9);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.mainContent__input {
+  color: #abbbc2;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  border-radius: 8px;
+  border: 1px solid #393c49;
+  background: #2d303e;
+  padding: 14px;
+  padding-left: 36px;
+  background-repeat: no-repeat;
+  background-image: url(/img/searchIcon.svg);
+  background-position: left 14px center;
+  background-color: transparent;
+  height: auto;
+  width: 280px;
+}
+.mainContent__titleBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+.mainContent__linkBox {
+  margin-bottom: 34px;
+  display: flex;
+  gap: 40px;
+}
+.mainContent__linkBox_btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  background-color: transparent;
+  border: none;
+  padding-bottom: 13px;
+  border-bottom: 3px solid transparent;
+}
+.buttonActive {
+  border-bottom: 2px solid $primary-color;
+  border-radius: 1px;
+  color: $primary-color;
+}
+.mainContent__sub_title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+}
+.mainContent__select {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+  padding: 14px;
+  padding-left: 44px;
+  border-radius: 8px;
+  border: 1px solid #393c49;
+  background: #1f1d2b;
+  appearance: none;
+  background-image: url("/img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: left 14px center;
+  outline: none;
+}
+.mainContent__sub_titleBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.mainContent_card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 55px;
+}
+.mainContent_card_item {
+  background-color: $black-howl;
+  padding: 24px;
+  padding-top: 114px;
+  position: relative;
+  width: 292px;
+  border-radius: 8px;
+}
+.mainContent_card_item_img {
+  position: absolute;
+  top: -14%;
+  margin-left: 50px;
+}
+.mainContent_card_item_title {
+  margin-top: 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.mainContent_card_item_price {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 4px;
+}
+.mainContent_card_item_textBox {
+  text-align: center;
+  max-width: 154px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainContent_card_item_text {
+  color: var(--Text-Light, #abbbc2);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.mainContent__descBox {
+  position: absolute;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  top: 80px;
+  width: 280px;
+  gap: 10px;
+  background-color: $black-howl;
+  z-index: 10;
+}
+.searchDesc {
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.menu_Commit {
+  padding: 14px;
+  max-width: 247px;
+  width: 100%;
+  color: #e0e6e9;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  border-radius: 8px;
+  border: 1px solid #393c49;
+  background-color: #2d303e;
+  outline: none;
+}
+.menu_content_box {
+  margin-bottom: 10px;
+}
+.menu_cardBtn {
+  width: 48px;
+  height: 48px;
+  background-image: url("/img/deleteIcon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.menu_sub_title {
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.menu_sub_text {
+  color: var(--Text-Light, #abbbc2);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.menuForm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
