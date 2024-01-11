@@ -6,7 +6,7 @@
   padding-right: 24px;
 }
 .menu_number {
-  color: var(--White, #fff);
+  color:  #fff;
   font-size: 20px;
   font-weight: 600;
   line-height: 140%;
@@ -14,7 +14,7 @@
 }
 .menu_btn_first {
   padding: 7px 12px;
-  color: var(--White, #fff);
+  color:  #fff;
   font-size: 14px;
   font-weight: 600;
   line-height: 140%;
@@ -41,7 +41,7 @@
   color: $white;
   font-size: 16px;
   font-weight: 600;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%; 
 }
 .menu_descBox {
   display: flex;
@@ -68,7 +68,6 @@
   margin-right: auto;
 }
 .menuImgBox {
-  // text-align: center;
   justify-content: center;
 }
 .menuImgBox_content {
@@ -100,10 +99,10 @@
   background: #313441;
 }
 .menuPrice {
-  color: var(--White, #fff);
+  color:  #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%; 
 }
 .menu_content_box {
   display: flex;
@@ -126,16 +125,16 @@
   margin-right: -14px;
 }
 .menuSubTotal_desc {
-  color: var(--Text-Light, #abbbc2);
+  color:  #abbbc2;
   font-size: 14px;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%; 
 }
 .menuSubTotal_price {
-  color: var(--White, #fff);
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%; 
 }
 .menuSubTotal {
   display: flex;

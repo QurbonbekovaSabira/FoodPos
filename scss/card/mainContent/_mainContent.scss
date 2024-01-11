@@ -12,7 +12,7 @@
   margin-bottom: 4px;
 }
 .mainContent__day {
-  color: var(--Text-Lighter, #e0e6e9);
+  color:  #e0e6e9;
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
@@ -90,13 +90,10 @@
   margin-bottom: 65px;
 }
 .mainContent_card {
-  // display: grid;
-  // grid-template-columns: 1fr 1fr 1fr;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 55px;
-  // justify-content: center;
 }
 .mainContent_card_item {
   background-color: $black-howl;
@@ -134,7 +131,7 @@
   margin-right: auto;
 }
 .mainContent_card_item_text {
-  color: var(--Text-Light, #abbbc2);
+  color:  #abbbc2;
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -184,13 +181,13 @@
   cursor: pointer;
 }
 .menu_sub_title {
-  color: var(--White, #fff);
+  color:  #fff;
   font-size: 14px;
   font-weight: 500;
   line-height: 130%;
 }
 .menu_sub_text {
-  color: var(--Text-Light, #abbbc2);
+  color:  #abbbc2;
   font-size: 12px;
   font-weight: 500;
   line-height: 140%;

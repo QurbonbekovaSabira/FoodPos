@@ -414,7 +414,7 @@ body {
 }
 
 .mainContent__day {
-  color: var(--Text-Lighter, #e0e6e9);
+  color: #e0e6e9;
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
@@ -550,7 +550,7 @@ body {
 }
 
 .mainContent_card_item_text {
-  color: var(--Text-Light, #abbbc2);
+  color: #abbbc2;
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -605,14 +605,14 @@ body {
 }
 
 .menu_sub_title {
-  color: var(--White, #fff);
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   line-height: 130%;
 }
 
 .menu_sub_text {
-  color: var(--Text-Light, #abbbc2);
+  color: #abbbc2;
   font-size: 12px;
   font-weight: 500;
   line-height: 140%;
@@ -633,7 +633,7 @@ body {
 }
 
 .menu_number {
-  color: var(--White, #fff);
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
   line-height: 140%;
@@ -642,7 +642,7 @@ body {
 
 .menu_btn_first {
   padding: 7px 12px;
-  color: var(--White, #fff);
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   line-height: 140%;
@@ -672,7 +672,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%;
 }
 
 .menu_descBox {
@@ -740,10 +740,10 @@ body {
 }
 
 .menuPrice {
-  color: var(--White, #fff);
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%;
 }
 
 .menu_content_box {
@@ -770,17 +770,17 @@ body {
 }
 
 .menuSubTotal_desc {
-  color: var(--Text-Light, #abbbc2);
+  color: #abbbc2;
   font-size: 14px;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%;
 }
 
 .menuSubTotal_price {
-  color: var(--White, #fff);
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%;
 }
 
 .menuSubTotal {

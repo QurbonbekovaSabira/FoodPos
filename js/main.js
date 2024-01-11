@@ -148,7 +148,7 @@ const rendMenu = (id, productMenu) => {
     <div class="menuImgBox"> 
     <img class="menuImg" src="${item.url}">
         <div class="menuImgBox_content">
-        <p class="menu_sub_title">${item.title}</p>
+        <p class="menu_sub_title">${item.title.slice(0,18)}...</p>
         <p class="menu_sub_text">${item.price}</p>
         </div>
     </div>
